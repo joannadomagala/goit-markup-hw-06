@@ -410,6 +410,20 @@ button.button-main-side:hover {
   transform: translate(0%, -1000%) scale(0);
   transition: transform 0.3s ease-out;
 }
+.modal-title {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--font-color-basic);
+  text-align: center;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 30px;
+}
+
 /* ------------------------------------------- */
 .task-icons {
   display: flex;
