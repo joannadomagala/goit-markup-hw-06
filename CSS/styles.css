@@ -464,6 +464,8 @@ button.button-main-side:hover {
   transform: translate(0%, -1000%) scale(0);
   transition: transform 0.3s ease-out;
 }
+/* formularz Modal */
+
 .modal-title {
   font-family: inherit;
   font-size: 20px;
@@ -476,6 +478,51 @@ button.button-main-side:hover {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 30px;
+}
+.text-label {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  line-height: 1.16;
+  color: #757575;
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 4px;
+}
+textarea {
+  resize: none;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  line-height: 1.16;
+  width: 448px;
+  height: 120px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+}
+
+.button-modal {
+  width: 200px;
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: 40px;
+  border: none;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--font-color-special);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* ------------------------------------------- */
