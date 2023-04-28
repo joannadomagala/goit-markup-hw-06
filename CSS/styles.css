@@ -358,6 +358,11 @@ footer {
   margin-bottom: 13px;
   margin-right: 28px;
 }
+.newsletter-button:hover,
+.newsletter-button:focus {
+  background-color: var(--hover-focus-color);
+  cursor: pointer;
+}
 /* -------------end of newsletter---------------- */
 /* INDEX */
 .container-main-side {
@@ -581,6 +586,13 @@ textarea:focus {
   transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox-label input[type="checkbox"]:hover,
+.checkbox-label input[type="checkbox"]:focus {
+  cursor: pointer;
+  border-color: var(--hover-focus-color);
+  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a.privacy-policy-link {
