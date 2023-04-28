@@ -459,7 +459,15 @@ button.button-main-side:hover {
   border-radius: 50%;
   cursor: pointer;
   justify-content: center;
+  align-items: center;
   z-index: 1;
+}
+
+.modal [data-modal-close]:hover svg,
+.modal [data-modal-close]:focus svg {
+  fill: var(--hover-focus-color);
+  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden .modal {
   transform: translate(0%, -1000%) scale(0);
