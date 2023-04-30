@@ -299,7 +299,8 @@ footer {
   background-color: var(--background-color-cirkle-footer);
   cursor: pointer;
 }
-.icon-circle:hover {
+.icon-circle:hover,
+.icon-circle:focus {
   background-color: var(--hover-focus-color);
   transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -417,7 +418,8 @@ h1 span {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-button.button-main-side:hover {
+button.button-main-side:hover,
+button.button-main-side:focus {
   background-color: var(--hover-focus-color);
   color: var(--font-color-special);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
