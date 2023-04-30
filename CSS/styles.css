@@ -325,7 +325,7 @@ footer {
   color: var(--font-color-modal);
 }
 .newsletter-input:hover,
-.newsletter-input:focus-within {
+.newsletter-input:focus {
   outline: none;
   border-color: var(--hover-focus-color);
   transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1),
@@ -932,6 +932,7 @@ button.button-filter:focus {
   background: var(--hover-focus-color);
   box-shadow: var(--box-shadow-button-filter);
   border-radius: 4px;
+  color: var(--font-color-special);
 }
 .brand-container {
   margin-top: 50px;
