@@ -323,12 +323,16 @@ footer {
   outline: none;
   background-color: transparent;
   padding-left: 16px;
-  color: var(--font-color-modal);
+  color: var(--font-color-special);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 .newsletter-input:hover,
 .newsletter-input:focus {
   outline: none;
-  border-color: var(--hover-focus-color);
+  border: 2px solid var(--hover-focus-color);
   transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
