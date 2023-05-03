@@ -369,6 +369,8 @@ footer {
 .newsletter-button:hover,
 .newsletter-button:focus {
   background-color: var(--hover-focus-color);
+  color: var(--font-color-special);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 /* -------------end of newsletter---------------- */
@@ -423,7 +425,9 @@ h1 span {
   letter-spacing: 0.06em;
 }
 button.button-main-side:hover,
-button.button-main-side:focus {
+button.button-main-side:focus,
+button.button-modal:hover,
+button.button-modal:focus {
   background-color: var(--hover-focus-color);
   color: var(--font-color-special);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -451,8 +455,6 @@ button.button-main-side:focus {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 528px;
-  height: 581px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -520,6 +522,7 @@ button.button-main-side:focus {
   padding: 0 8px;
   outline: none;
   font-size: 12px;
+  color: var(--font-color-basic);
   letter-spacing: 0.01em;
   line-height: 1.16;
 }
@@ -559,6 +562,7 @@ button.button-main-side:focus {
 textarea {
   resize: none;
   font-size: 12px;
+  color: var(--font-color-basic);
   letter-spacing: 0.01em;
   line-height: 1.16;
   width: 448px;
@@ -623,7 +627,8 @@ textarea:focus {
   border-color: transparent;
 }
 
-.checkbox-label:hover {
+.checkbox-label:hover,
+.checkbox-label:focus {
   border-color: var(--hover-focus-color);
   transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -662,27 +667,22 @@ a.privacy-policy-link {
 }
 
 .button-modal {
-  width: 200px;
-  height: 50px;
-  margin-top: auto;
-  margin-bottom: 40px;
-  background: var(--hover-focus-color);
-  border-color: var(--hover-focus-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: var(--font-color-special);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87px;
-  align-items: center;
-  text-align: center;
+  color: var(--font-color-special);
   letter-spacing: 0.06em;
+  line-height: 1.87;
+  background-color: var(--hover-focus-color);
+  border-color: var(--hover-focus-color);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 30px;
+  padding-left: 76px;
+  padding-right: 76px;
   margin-bottom: 40px;
-  cursor: pointer;
+  margin-top: 30px;
 }
 
 /* ------------------------------------------- */
